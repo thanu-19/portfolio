@@ -102,7 +102,7 @@
 
 import React from 'react';
 import './Portfolio.css';
-import profilePhoto from './profile-photo.jpg';
+
 
 const Portfolio = () => {
   return (
@@ -118,10 +118,10 @@ const Portfolio = () => {
       <header className="header">
         <h1>Thanusree Nagaladinne</h1>
         <img
-          src={profilePhoto}
-          alt="Thanusree Nagaladinne Profile"
-          className="profile-photo"
-        />
+  src="/profile-photo.jpg"
+  alt="Thanusree Nagaladinne Profile"
+  className="profile-photo"
+/>
         <p>Full Stack MERN Developer</p>
       </header>
 
